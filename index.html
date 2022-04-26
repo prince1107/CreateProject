@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="script.js"></script>
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Title</title>
+  </head>
+
+  <body id="body" onload="initialize()">
+    <h1></h1>
+    <h1 id="title">MARS: The Word Game!</h1>
+    <h1></h1>
+    <h3>Can YOU Survive Mars?</h3>
+    <p id="instructions">Start the Game and try to survive this harsh planet</p>
+    <div id="notend">
+      <h1 id="day"></h1>
+      <button class="btn" id="b0" onclick="start()">Start THE GAME!</button>
+      <h1 id="scenario"></h1>
+      <h2 id="option1"></h2>
+      <h2 id="option2"></h2>
+      <h2 id="option3"></h2>
+      <h2 id="option4"></h2>
+
+      <button class="btn" id="b1" onclick="check(1)">Option 1</button>
+      <button class="btn" id="b2" onclick="check(2)">Option 2</button>
+      <button class="btn" id="b3" onclick="check(3)">Option 3</button>
+      <button class="btn" id="b4" onclick="check(4)">Option 4</button>
+
+      <h1></h1>
+      <button class="btn" id="b7" onclick="next()">Continue</button>
+
+      <h2>STATS:</h2>
+      <h3 id="health">Health: 100%</h3>
+      
+      <h3 id="inventory">
+        Inventory: Instant-Habitat, Water-Reclamation Plant
+      </h3>
+      <h3 id="food">Food: 200</h3>
+      <h3 id="water">Water: 200</h3>
+      <h3 id="ore">Ore: 0</h3>
+
+      
+      <h3 id="buildings">Buildings:</h3>
+      <h1></h1>
+    </div>
+    
+    <button class="btn"id="b5"onclick="reset()">Reset</button>
+  </body>
+</html>

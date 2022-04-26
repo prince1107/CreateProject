@@ -1,0 +1,32 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  background-color: rgb(255, 178, 115);
+}
+
+body {
+  vertical-align: center;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 12px;
+  border: 2px solid #555555;
+  color: black;
+  padding: 15px 32px;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #555555;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
